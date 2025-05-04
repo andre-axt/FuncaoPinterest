@@ -84,13 +84,13 @@ ul li.item-menu a .icon > i {
 
 @media screen and (max-width: 1024px) {
     .section-container {
-        column-count: 3; /* Reduz para 2 colunas em telas menores */
+        column-count: 3;
     }
 }
 
 @media screen and (max-width: 768px) {
     .section-container {
-        column-count: 2; /* Apenas 1 coluna em telas pequenas */
+        column-count: 2; 
     }
 }
 
@@ -213,11 +213,11 @@ ul li.item-menu a .icon > i {
 }
 
 .containerExplorar {
-    text-align: center; /* Centraliza os elementos */
+    text-align: center; 
 }
 
 .slideExplorar {
-    display: inline-block; /* Coloca os elementos lado a lado */
+    display: inline-block; 
 }
 
 .slideExplorar img {

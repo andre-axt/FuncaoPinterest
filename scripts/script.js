@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("downloadLink").addEventListener("click", function(event) {
-        event.preventDefault(); // Impede a abertura da imagem
+        event.preventDefault(); 
 
         fetch(this.href)
-            .then(response => response.blob()) // Converte a imagem em um Blob
+            .then(response => response.blob()) 
             .then(blob => {
                 const link = document.createElement("a");
                 link.href = URL.createObjectURL(blob);
-                link.download = "imagemForYou3.jpg"; // Define o nome do arquivo
+                link.download = "imagemForYou3.jpg"; 
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
