@@ -1,3 +1,7 @@
+document.getElementById('file-upload').addEventListener('change', function() {
+    alert('Arquivo selecionado: ' + this.files[0].name);
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("downloadLink").addEventListener("click", function(event) {
         event.preventDefault(); 
