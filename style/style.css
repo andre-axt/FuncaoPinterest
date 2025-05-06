@@ -240,8 +240,8 @@ ul li.item-menu a .icon > i {
 }
 
 .containerFicheiro > i {
-    font-size: 30px; /* Ajusta o tamanho do ícone */
-    margin-bottom: 20px; /* Espaço abaixo do ícone */
+    font-size: 30px; 
+    margin-bottom: 20px; 
 }
 
 .containerFicheiro > h2 {
@@ -258,7 +258,7 @@ ul li.item-menu a .icon > i {
 .criarFicheiro{
     padding-left: 10%;
     display: flex;
-    flex-direction: column; /* Mantém os elementos organizados verticalmente */
+    flex-direction: column; 
     justify-content: space-between;
 }
 
